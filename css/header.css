@@ -1,0 +1,85 @@
+@font-face {
+    font-family: tangerine;
+    src: url(../media/Tangerine-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: tangerine-bold;
+    src: url(../media/Tangerine-Bold.ttf);
+  }
+  
+
+  @font-face {
+    font-family: vollkorn-semibold;
+    src: url(../media/Vollkorn-SemiBold.ttf);
+  }
+  
+  
+
+/* div,nav {
+    border: 1px solid black;
+} */
+#titel {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-family: tangerine;
+    font-size: 120px;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0, 0.4);
+}
+#header {
+    position: relative;
+    height: 300px;
+    background-image: url("../media/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+#nav > a {
+    float: left;
+    margin-right: 32px;
+    color: white;
+    font-family: vollkorn-semibold;
+    transition: 0.05s ease-out;
+    text-decoration: none;
+    height: 23px;
+    border-bottom: 1px solid white;
+    position: absolute;
+}
+
+#nav > a:hover{   
+    transition: 0.1s ease-in;
+    transform: translateX(10px);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#menu {
+    right: 0;
+}
+
+#info {
+    right: 100px;
+}
+
+#bestel {
+    right: 200px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    position: relative;
+    padding-top: 10px;
+    font-size: 20px;
+    justify-content: flex-end;
+}
