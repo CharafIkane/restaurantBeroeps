@@ -109,4 +109,13 @@ article:hover img {
     bottom: 10px;
     float: right;
     right: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+
+#more:hover {
+    background-color: rgb(42, 42, 208);
+    cursor: pointer;
+    color: white;
 }

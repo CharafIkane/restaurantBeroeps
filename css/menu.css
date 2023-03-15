@@ -1,0 +1,41 @@
+products {
+    max-width: 1600px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 50px;
+}
+
+product {
+    position: relative;
+    height: 250px;
+    width: 362px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    background-color: red;
+    cursor: pointer;
+}
+
+.titel {
+    font-family: vollkorn-semibold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 90%;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.price {
+    font-family: vollkorn-semibold;
+    background-color: rgb(228, 228, 228);
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
