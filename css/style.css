@@ -158,4 +158,10 @@ contact-items {
     height: 180px;
     display: flex;
     justify-content: center;
+    background-color: #f1f4f9;
+    font-family: volkorn-semibold;
+}
+
+#contact {
+    font-family: volkorn-semibold;
 }
