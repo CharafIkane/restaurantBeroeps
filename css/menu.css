@@ -16,8 +16,14 @@ product {
     height: 250px;
     width: 362px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-    background-color: red;
     cursor: pointer;
+}
+
+product img {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .titel {
