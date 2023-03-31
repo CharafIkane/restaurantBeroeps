@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berkane - Bestellen</title>
+
+    <meta name="title" content="Berkane">
+    <meta name="description"
+        content="Berkane verkoopt ambachtelijke Marokkaanse koekjes, bereid volgens traditionele recepten. Breed assortiment, snelle en veilige bezorging.">
+    <meta name="keywords"
+        content="marokkaanse koekjes, traditionele recepten, ambachtelijk gemaakt, breed assortiment, ghoriba, kaab el ghzal, snelle bezorging, veilige bezorging, cadeau, authentiek">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Charaf, Djay, Emirhan, Edelmar">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bestel.css">
+    <script src="js/bestel.js" defer></script>
 </head>
-<body>
-    
+<body onload="onLoad()">
+    <div id="header">
+        <div id="nav">
+            <a href="menu.html" id="menu"><i class="bi bi-book"></i>MENU</a>
+            <a href="bestel.html" id="bestel"><i class="bi bi-cart"></i>CART</a>
+            <a href="info.html" id="info"><i class="bi bi-info-circle"></i>INFO</a>
+        </div>
+        <a href="../index.html"><h2 id="titel">Berkane</h2></a>
+    </div>
+
+    <products></products>
+
+    <wrapper id="footer-wrapper">
+        <div id="footer">
+            <div id="footerLinks">
+                <h3 id="contact">Contacteer ons via</h3>
+                <contact-item>+3161702869</contact-item>
+                <contact-item>info@berkane.nl</contact-item>
+            </div>
+            <div id="footerRechts">
+                <h3 id="contact">Openingstijden</h3>
+                <contact-items>
+                    <contact-item>Maandag - Vrijdag <br>
+                        09:00 - 20:00</contact-item>
+                    <contact-item>Zaterdag <br>
+                        10:00 - 18:00</contact-item>
+                    <contact-item>Zondag <br>
+                        Gesloten</contact-item>
+                </contact-items>
+            </div>
+        </div>
+    </wrapper> 
+    <buttons>
+        <button onclick="bestel()">Bestel</button>
+    </buttons>
 </body>
 </html>

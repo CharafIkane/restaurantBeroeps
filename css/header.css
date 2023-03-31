@@ -1,20 +1,20 @@
 @font-face {
     font-family: tangerine;
     src: url(../media/Tangerine-Regular.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: tangerine-bold;
     src: url(../media/Tangerine-Bold.ttf);
-  }
-  
+}
 
-  @font-face {
+
+@font-face {
     font-family: vollkorn-semibold;
     src: url(../media/Vollkorn-SemiBold.ttf);
-  }
-  
-  
+}
+
+
 
 /* div,nav {
     border: 1px solid black;
@@ -92,3 +92,68 @@ body {
     margin-right: 5px;
     padding-left: 5px;
 }
+
+/* Footer */
+
+#footerLinks {
+    display: flex;
+    flex-direction: column;
+    background-color: #95C7F9;
+    color: white;
+    width: 100vw;
+    padding-left: 50px;
+}
+
+#footerRechts {
+    display: flex;
+    background-color: #E8E6E3;
+    color: rgb(59, 57, 57);
+    flex-direction: column;
+    max-width: calc(780px - 2%);
+    width: 100vw;
+    padding-left: 50px;
+}
+contact-items {
+    display: flex;
+    gap: 30px;
+}
+
+wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f1f4f9;
+    padding-bottom: 30px;
+}
+
+#footer {
+    margin-left: 50%;
+    transform: translate(-50%);
+    max-width: 1550px;
+    width: calc(100vw - 40px);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-wrapper {
+    background: linear-gradient(90deg, rgba(149,199,249,1) 0%, rgba(149,199,249,1) 46%, rgba(232,230,227,1) 49%, rgba(232,230,227,1) 100%);
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* ruimte-links{
+    height: 100%;
+    width: 100%;
+    background-color: #95C7F9;
+    display: flex;
+}
+
+ruimte-rechts{
+    height: 100%;
+    width: 100%;
+    background-color: #E8E6E3;
+    display: flex;
+} */

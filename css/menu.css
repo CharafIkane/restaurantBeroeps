@@ -1,11 +1,12 @@
 products {
     max-width: 1600px;
-    width: max-content;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute;
-    top: 350px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
     left: 50%;
     transform: translate(-50%);
     gap: 50px;
@@ -16,8 +17,20 @@ product {
     height: 250px;
     width: 362px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-    background-color: red;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+
+product:hover {
+    filter: brightness(0.9);
+}
+
+product img {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .titel {
@@ -38,4 +51,4 @@ product {
     bottom: 0;
     right: 0;
     padding: 10px;
-}
+}   

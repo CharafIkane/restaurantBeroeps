@@ -1,0 +1,19 @@
+text {
+    max-width: 1600px;
+    width: calc(100vw - 40px);
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#text-wrapper {
+    width: 100%;
+    flex-direction: column;
+    display: flex;  
+    align-items: center;
+    padding-bottom: 100px;
+    font-family: vollkorn-semibold;
+}
+
