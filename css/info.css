@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 text {
     max-width: 1600px;
     width: calc(100vw - 40px);
@@ -17,3 +18,112 @@ text {
     font-family: vollkorn-semibold;
 }
 
+=======
+@font-face {
+    font-family: tangerine;
+    src: url(../media/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: tangerine-bold;
+    src: url(../media/Tangerine-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: vollkorn-semibold;
+    src: url(../media/Vollkorn-SemiBold.ttf);
+}
+
+wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f1f4f9;
+    padding-bottom: 30px;
+}
+
+
+#main {
+    max-width: 1600px;
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #f1f4f9;
+}
+
+#footer-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    font: vollkorn-semibold;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+}
+h3 {
+    float: none;
+    position: relative;
+}
+
+#tekst {
+    margin-top: 69px;
+    max-width: 1600px;
+}
+#heading {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 1600px;
+
+}
+
+#heading h3 {
+    font-size: 28px;
+}
+
+#tekst2 {
+    margin-top: 400px;
+    max-width: 1600px;
+    position: absolute;
+    width: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 1600px;
+    z-index: 2;
+}
+#heading2 {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 1600px;
+    margin-top: 345px;
+    z-index: 2;
+}
+
+#heading2 h3 {
+    font-size: 28px;
+}
+
+body {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    top: 200px;
+    position: relative;
+}
+>>>>>>> c7a0e656ef6f3d167bc63f86abbbf59f47d03af2
